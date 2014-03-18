@@ -14,7 +14,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    [NewRelic startWithApplicationToken:@"AA1df7a78da0cfae3bc96424abe3cdd37dc9231dad"];
+    [NewRelic startWithApplicationToken:@"[apptoken]"];
     //[NRLogger setLogLevels:NRLogLevelInfo];
     return YES;
 }
